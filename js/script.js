@@ -27,7 +27,7 @@ for (let i = 0; i < name.length; i++) {
 
 // })
 
-let staf = ["karim", "Rahim", "Naim", "Rabbi", "Siam"];
+let staf = ["karim", "Rahim", "Saim", "Rabbi", "Siam"];
 staf.map((items) => {
   // console.log(`wellcome ${items}`);
 });
