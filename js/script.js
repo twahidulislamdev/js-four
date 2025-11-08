@@ -6,14 +6,14 @@
 // }
 // math()
 // Dynamic Data pass kora
-// function person(name = "Twahidul Islam", age = 22){
+// function person(name = "Twahidul Islam Emon", age = 22){
 //     console.log(`My name is ${name}`);
 //     console.log(`My am ${age} old`);
 
 // }
 // person()
 
-let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
+let name = ["Twahidul", "Yousuf", "Korim", "Tamim", "Yakub"];
 function grattings(personsName) {
   //   console.log(`Wellcome ${personsName}`);
 }
