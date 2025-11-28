@@ -6,20 +6,20 @@
 // }
 // math()
 // Dynamic Data pass kora
-// function person(name = "Twahidul Islam", age = 22){
+// function person(name = "Twahidul Islam Emon", age = 22){
 //     console.log(`My name is ${name}`);
 //     console.log(`My am ${age} old`);
 
 // }
 // person()
 
-// let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
-// function grattings(personsName) {
-//   //   console.log(`Wellcome ${personsName}`);
-// }
-// for (let i = 0; i < name.length; i++) {
-//   grattings(name[i]);
-// }
+let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
+function grattings(personsName) {
+  //   console.log(`Wellcome ${personsName}`);
+}
+for (let i = 0; i < name.length; i++) {
+  grattings(name[i]);
+}
 
 // Loop using map
 // name.map(items =>{
@@ -27,16 +27,16 @@
 
 // })
 
-// let staf = ["karim", "Rahim", "Naim", "Rabbi", "Siam"];
-// staf.map((items) => {
-//   // console.log(`wellcome ${items}`);
-// });
-// function add(num1, num2) {
-//   let total = num1 * num2;
-//   return total;
-// }
-// let bill = add(5, 5);
-// // console.log(bill);
+let staf = ["karim", "Rahim", "Naim", "Rabbi", "Siam"];
+staf.map((items) => {
+  // console.log(`wellcome ${items}`);
+});
+function add(num1, num2) {
+  let total = num1 * num2;
+  return total;
+}
+let bill = add(5, 5);
+// console.log(bill);
 
 // function isEven(number) {
 //   if (number % 2 === 0) {
