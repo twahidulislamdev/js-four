@@ -13,13 +13,13 @@
 // }
 // person()
 
-let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
-function grattings(personsName) {
-  //   console.log(`Wellcome ${personsName}`);
-}
-for (let i = 0; i < name.length; i++) {
-  grattings(name[i]);
-}
+// let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
+// function grattings(personsName) {
+//   //   console.log(`Wellcome ${personsName}`);
+// }
+// for (let i = 0; i < name.length; i++) {
+//   grattings(name[i]);
+// }
 
 // Loop using map
 // name.map(items =>{
@@ -27,52 +27,58 @@ for (let i = 0; i < name.length; i++) {
 
 // })
 
-let staf = ["karim", "Rahim", "Naim", "Rabbi", "Siam"];
-staf.map((items) => {
-  // console.log(`wellcome ${items}`);
-});
-function add(num1, num2) {
-  let total = num1 * num2;
-  return total;
-}
-let bill = add(5, 5);
-// console.log(bill);
+// let staf = ["karim", "Rahim", "Naim", "Rabbi", "Siam"];
+// staf.map((items) => {
+//   // console.log(`wellcome ${items}`);
+// });
+// function add(num1, num2) {
+//   let total = num1 * num2;
+//   return total;
+// }
+// let bill = add(5, 5);
+// // console.log(bill);
 
-function isEven(number) {
-  if (number % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
-}
-// console.log(isEven(5));
-// console.log(isEven(10));
+// function isEven(number) {
+//   if (number % 2 === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// // console.log(isEven(5));
+// // console.log(isEven(10));
 
-function isOdd(num) {
-  if (num % 2 === 1) {
-    return true;
-  }
-  return false;
-}
-// console.log(isOdd(55));
-// console.log(isOdd(56));
+// function isOdd(num) {
+//   if (num % 2 === 1) {
+//     return true;
+//   }
+//   return false;
+// }
+// // console.log(isOdd(55));
+// // console.log(isOdd(56));
 
-// let x = 20;
-// x += 20;
-// console.log(x);
+// // let x = 20;
+// // x += 20;
+// // console.log(x);
 
 
-function sumOfNumba(numbers) {
-  let sum = 0;
-  for(let number of numbers ){
-    console.log(number);
-    sum = sum + number
+// function sumOfNumba(numbers) {
+//   let sum = 0;
+//   for(let number of numbers ){
+//     console.log(number);
+//     sum = sum + number
     
     
-  }
-  return sum;
-}
+//   }
+//   return sum;
+// }
 let numbs = [54, 44, 90, 56, 78, 65]
 let fol = sumOfNumba(numbs)
 console.log('Sum of the number', fol);
+
+const someLi = document.querySelectorAll('.menuLi li');
+
+let x = "Hello World"
+console.log(x);
+
 
