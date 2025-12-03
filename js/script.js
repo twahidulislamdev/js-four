@@ -13,7 +13,7 @@
 // }
 // person()
 
-let name = ["Twahidul", "Yousuf", "Rahim", "Tamim", "Yakub"];
+let name = ["Twahidul", "Yousuf", "Rahim", "Karim", "Naim", "Rabbi", "Siam"];
 function grattings(personsName) {
   //   console.log(`Wellcome ${personsName}`);
 }
